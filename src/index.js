@@ -4,7 +4,6 @@ import CameraFeed from './components/CameraFeed';
 import './style.scss';
 
 const App = (props) => {
-const wordsArray = ['Candid', 'Crazy', 'Capture', 'Catchy']; 
 const uploadImage = async file => {
     const formData = new FormData();
     formData.append('file', file);
