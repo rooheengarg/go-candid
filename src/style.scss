@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: '#00bg32';
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, yellow, purple);
+    background: -moz-linear-gradient( to left top, yellow, purple);
+    background: -ms-linear-gradient( to left top, yellow, purple);
+    background: -o-linear-gradient( to left top, yellow, purple);
+    background: linear-gradient( to left top, yellow, purple);
+}
+
+.App {
+    background-color: #eaeaea;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 5% 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    text-align: center;
+}
